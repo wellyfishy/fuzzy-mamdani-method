@@ -11,8 +11,8 @@ import matplotlib.pyplot as plt
 def segitiga(x, a, b, c):
     return np.maximum(np.minimum((x - a) / (b - a), (c - x) / (c - b)), 0)
 
-# fungsi linspace essentially membuat array 15 sampai 40 memiliki space sebanyak 500x. 15.05, 15.10, 15.15, dan seterusnya
-x = np.linspace(15, 40, 500)
+# fungsi linspace essentially membuat array 15 sampai 30 memiliki space sebanyak 500x. 15.05, 15.10, 15.15, dan seterusnya
+x = np.linspace(15, 30, 500)
 
 # ini variabel untuk membuat segitiga pada nantinya
 # ini juga array variabel untuk mencari value yang pas untuk di cocokkan dengan value membership yang kita cari berdasarkan temperatur nanti
